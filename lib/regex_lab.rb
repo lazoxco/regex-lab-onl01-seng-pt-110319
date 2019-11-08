@@ -23,6 +23,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   #   false
   # end
   
+  # ternary operator
   text.match(/^[A-Z].*\W$/) ? true : false
 end
 
